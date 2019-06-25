@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{ 
+  background:transparent url(../img/homebg.jpeg);
+}
+
+#logo 
+{
+  margin-left: 10%;
+  margin-right:10%;
+  content-align:center;
+  
+}
+
+#logo_text1
+{ 
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+#logo_text2
+{ 
+  font-family: "lucida sans", arial, sans-serif;
+  color: grey;
+  font-size: 38px;
+}
+
+#logo_text3
+{
+  font-family: "lucida sans", arial, sans-serif;
+  color: grey;
+  font-size: 18px;
+}
+
+#nav
+{ 
+  
+  float:right;
+  font-family: "lucida sans", arial, sans-serif;
+  color: grey;
+  font-size: 15px;
+  background-color: dimgray;
+  width: 100%;
+  height:40px;
+  
+} 
+
+#menu
+{ float: right;
+  margin: 0px;}
+
+#menu li
+{ float: left;
+  margin: 5px 0 0 0;
+  padding: 0 0 0 0px;
+  list-style: none;}
+
+#menu li a
+{ letter-spacing: 0.1em;
+  font-family: "lucida sans", arial, sans-serif;
+  font-size: 120%;
+  display: block; 
+  float: left; 
+  height: 20px;
+  text-decoration: none; 
+  padding: 9px 15px 5px 15px;
+  text-align: center;
+  color: gainsboro;
+  border: none;} 
+
+
+
+#menu li a:hover
+{ color: yellow;}
+
+#footer
+{ width: 100%;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 80%;
+  height:45px;
+  text-align: center; 
+  background: dimgrey;
+  color: gainsboro;
+  clear: both;
+    position: relative;
+    margin-top:400px;
+}

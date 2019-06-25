@@ -1,0 +1,26 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:rgb(241, 244, 66);
+	font-family:sans-serif;
+	
+}
+.nav { 
+	text-align: center;
+	align:center; 
+	
+}
+.nav li { 
+	display: inline-block; 
+	width: fit-content;
+}
+.loginBox{
+	position: absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:30%;
+	height:40%;
+	box-sizing:border-box;
+	background:rgb(184, 244, 65,.5);
+}
